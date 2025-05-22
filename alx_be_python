@@ -1,0 +1,16 @@
+git remote add origin https://github.com/adamelrhadir/alx_be_python.git
+git push -u origin master
+mkdir alx_be_python
+cd alx_be_python
+number1 = 10
+number2 = 5
+
+# Perform arithmetic operations
+sum_result = number1 + number2
+diff_result = number1 - number2
+prod_result = number1 * number2
+
+# Print results
+print("Addition of", number1, "and", number2, "is", sum_result)
+print("Subtraction of", number1, "and", number2, "is", diff_result)
+print("Multiplication of", number1, "and", number2, "is", prod_result)
